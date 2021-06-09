@@ -1,4 +1,11 @@
 <!DOCTYPE HTML>
+
+<style>
+  #full {
+    display: none;
+  }
+  </style>
+
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Yongming Rao</title>
   
@@ -8,6 +15,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" type="image/png" href="images/icon.png">
 </head>
+
 
 <body>
   <table style="width:100%;max-width:850px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -75,10 +83,12 @@
         </tr>
       </tbody></table>
 
+      <div id="selected">
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Publications</heading>
+              <p><heading>Selected Publications</heading></p>
               <p>
                 * indicates equal contribution
               </p>
@@ -86,7 +96,28 @@
           </tr>
         </tbody></table>
 
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/DynamicViT.gif" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification</papertitle>
+              <br>
+              <strong>Yongming Rao</strong>, <a href="https://thu-jw.github.io/"> Wenliang Zhao</a>,   <a href="https://scholar.google.com/citations?user=fNl-ZkIAAAAJ&hl=en"> Benlin Liu </a>, <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>, <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>, <a href="http://web.cs.ucla.edu/~chohsieh/"> Cho-Jui Hsieh </a>
+
+              <br>
+              <em>Preprint</em>, 2021
+              <br>
+              <a href="https://arxiv.org/abs/2106.02034">[arXiv]</a> <a href="https://github.com/raoyongming/DynamicViT">[Code]</a> <a href="https://dynamicvit.ivg-research.xyz/">[Project Page]</a> <a href="https://zhuanlan.zhihu.com/p/379126740">[知乎]</a> 
+              <br>
+              <p> We present a dynamic token sparsification framework to prune redundant tokens in vision transformers progressively and dynamically based on the input. </p>
+            </td>
+          </tr>
+
+
           <tr>
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/PV_RAFT.jpg" alt="dise">
@@ -105,8 +136,94 @@
             </td>
           </tr>
 
-        
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/PointGLR.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Global-Local Bidirectional Reasoning for Unsupervised Representation Learning of 3D Point Clouds</papertitle>
+              <br>
+              <strong>Yongming Rao</strong>, <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>, <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
+              <br>
+              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2020
+              <br>
+              <a href="https://arxiv.org/abs/2003.12971">[arXiv]</a> <a href="https://github.com/raoyongming/PointGLR">[Code]</a>
+              <br>
+              <p></p>
+              <p>We present an unsupervised point cloud representation learning method based on global-local bidirectional reasoning, which largely advances the state-of-the-art of unsupervised point cloud understanding and  <strong>outperforms recent supervised methods</strong>.</p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src='images/SFCNN.png' alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Spherical Fractal Convolution Neural Networks for Point Cloud Recognition</papertitle>
+              <br>
+              <strong>Yongming Rao</strong>,  <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>, <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
+              <br>
+              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2019
+              <br>
+              <a href="https://raoyongming.github.io/files/SFCNN.pdf">[PDF]</a> <a href="https://raoyongming.github.io/files/SFCNN_supplement.pdf">[Supplement]</a> 
+              <br>
+              <p> We designed Spherical Fractal Convolution Neural Networks (SFCNN) for rotation-invariant point cloud feature learning. </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src='images/COIN.png' alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>COIN: A Large-scale Dataset for Comprehensive Instructional Video Analysis</papertitle>
+              <br>
+              <a href="https://andytang15.github.io/"> Yansong Tang </a>, Dajun Ding, <strong>Yongming Rao</strong>, Yu Zheng, Danyang Zhang, Lili Zhao, <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>, <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
+              <br>
+              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2019
+              <br>
+              <a href="https://arxiv.org/abs/1903.02874">[arXiv]</a>  <a href="https://coin-dataset.github.io/">[Project Page]</a>  <a href="https://github.com/coin-dataset/annotation-tool">[Annotation Tool]</a> 
+              <br>
+              <p> COIN is the largest and most comprehensive instructional video analysis dataset with rich annotations. </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src='images/RNR.png' alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Runtime Network Routing for Efficient Image Classification</papertitle>
+              <br>
+              <strong>Yongming Rao</strong>,   <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>, <a href="http://linji.me/"> Ji Lin </a>, <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
+              <br>
+              <em>IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>T-PAMI</strong>, IF: 17.73)</em>, 2019
+              <br>
+              <a href="https://raoyongming.github.io/files/pami18.pdf">[PDF]</a> <a href="https://raoyongming.github.io/files/RNR.pytorch_release.zip">[Code]</a> <a href="https://papers.nips.cc/paper/6813-runtime-neural-pruning.pdf">[Conference Version (NeurIPS 2017)]</a>
+              <br>
+              <p> We propose a generic Runtime Network Routing (RNR) framework for efficient image classification, which selects an optimal path inside the network. Our method can be applied to off-the-shelf neural network structures and
+                easily extended to various application scenarios. </p>
+            </td>
+          </tr>
+        </tbody></table></div>
+
+          <div id="click">
+            <p><a href="#Show-the-full-publication-list" style="padding:20px;" onclick="showStuff(this);">Show the full publication list</a></p>
+           </div>
+           <script>
+             function showStuff(txt) {
+               document.getElementById("full").style.display = "block";
+               document.getElementById("click").style.display = "none";
+              //  document.getElementById("selected").style.display = "none";
+             }
+             </script>
+
+      <div id="full">
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                    
           <tr>
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/WassClf.png" alt="dise">
@@ -161,24 +278,6 @@
               <p>We boost the performance of CNNs by learning soft targets for shallow layers via meta-learning.</p>
             </td>
           </tr>
-          
-          <tr>
-            <td style="padding:20px;width:30%;max-width:30%" align="center">
-              <img style="width:100%;max-width:100%" src="images/PointGLR.png" alt="dise">
-            </td>
-            <td width="75%" valign="center">
-              <papertitle>Global-Local Bidirectional Reasoning for Unsupervised Representation Learning of 3D Point Clouds</papertitle>
-              <br>
-              <strong>Yongming Rao</strong>, <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>, <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
-              <br>
-              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2020
-              <br>
-              <a href="https://arxiv.org/abs/2003.12971">[arXiv]</a> <a href="https://github.com/raoyongming/PointGLR">[Code]</a>
-              <br>
-              <p></p>
-              <p>We present an unsupervised point cloud representation learning method based on global-local bidirectional reasoning, which largely advances the state-of-the-art of unsupervised point cloud understanding and  <strong>outperforms recent supervised methods</strong>.</p>
-            </td>
-          </tr>
 
           <tr>
             <td style="padding:20px;width:30%;max-width:30%" align="center">
@@ -211,58 +310,6 @@
               <a href="https://arxiv.org/abs/2003.13063">[arXiv]</a> <a href="https://github.com/Maclory/Deep-Iterative-Collaboration">[Code]</a> 
               <br>
               <p> We propose a deep face super-resolution method with iterative collaboration between two recurrent networks which focus on facial image recovery and landmark estimation respectively </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:20px;width:30%;max-width:30%" align="center">
-              <img style="width:100%;max-width:100%" src='images/SFCNN.png' alt="dise">
-            </td>
-            <td width="75%" valign="center">
-              <papertitle>Spherical Fractal Convolution Neural Networks for Point Cloud Recognition</papertitle>
-              <br>
-              <strong>Yongming Rao</strong>,  <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>, <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
-              <br>
-              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2019
-              <br>
-              <a href="https://raoyongming.github.io/files/SFCNN.pdf">[PDF]</a> <a href="https://raoyongming.github.io/files/SFCNN_supplement.pdf">[Supplement]</a> 
-              <br>
-              <p> We designed Spherical Fractal Convolution Neural Networks (SFCNN) for rotation-invariant point cloud feature learning. </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:20px;width:30%;max-width:30%" align="center">
-              <img style="width:100%;max-width:100%" src='images/COIN.png' alt="dise">
-            </td>
-            <td width="75%" valign="center">
-              <papertitle>COIN: A Large-scale Dataset for Comprehensive Instructional Video Analysis</papertitle>
-              <br>
-              <a href="https://andytang15.github.io/"> Yansong Tang </a>, Dajun Ding, <strong>Yongming Rao</strong>, Yu Zheng, Danyang Zhang, Lili Zhao, <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>, <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
-              <br>
-              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2019
-              <br>
-              <a href="https://arxiv.org/abs/1903.02874">[arXiv]</a>  <a href="https://coin-dataset.github.io/">[Project Page]</a>  <a href="https://github.com/coin-dataset/annotation-tool">[Annotation Tool]</a> 
-              <br>
-              <p> COIN is the largest and most comprehensive instructional video analysis dataset with rich annotations. </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:20px;width:30%;max-width:30%" align="center">
-              <img style="width:100%;max-width:100%" src='images/RNR.png' alt="dise">
-            </td>
-            <td width="75%" valign="center">
-              <papertitle>Runtime Network Routing for Efficient Image Classification</papertitle>
-              <br>
-              <strong>Yongming Rao</strong>,   <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>, <a href="http://linji.me/"> Ji Lin </a>, <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
-              <br>
-              <em>IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>T-PAMI</strong>, IF: 17.73)</em>, 2019
-              <br>
-              <a href="https://raoyongming.github.io/files/pami18.pdf">[PDF]</a> <a href="https://raoyongming.github.io/files/RNR.pytorch_release.zip">[Code]</a>
-              <br>
-              <p> We propose a generic Runtime Network Routing (RNR) framework for efficient image classification, which selects an optimal path inside the network. Our method can be applied to off-the-shelf neural network structures and
-                easily extended to various application scenarios. </p>
             </td>
           </tr>
 
@@ -372,13 +419,16 @@
               <br>
               <p> We propose a new tree structure for moving objects kNN search with road-network constraints, which can be used in many real-world applications like taxi search.  </p>
             </td>
-          </tr>
+          </tr></tbody></table>
+      </div>
+
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Honors and Awards</heading>
               <p>
+                <li style="margin: 5px;"> Baidu Chinese AI New Star Top-100 <a href="https://mp.weixin.qq.com/s/v7ITiZXOJiDUbPlRlcqQRA">(百度AI华人新星百强榜)</a></li>
                 <li style="margin: 5px;"> CVPR 2021 Outstanding Reviewer</li>
                 <li style="margin: 5px;"> ECCV 2020 Outstanding Reviewer</li>
                 <li style="margin: 5px;"> 2nd place in Semi-Supervised Recognition Challenge at FGVC7 (CVPR 2020)</li>
@@ -402,13 +452,13 @@
                 <b>Co-organizer:</b> Tutorial on Deep Reinforcement Learning for Computer Vision at CVPR 2019 <a href="http://ivg.au.tsinghua.edu.cn/DRLCV/"> [website]</a>
               </li>
               <li style="margin: 5px;"> 
-                <b>Conference Reviewer / Program Committee Member:</b> CVPR 2018-2021, ICML 2019-2021, ICCV 2019-2021, NeurIPS 2019-2021, ICLR 2021, ECCV 2020, AAAI 2020-2021, WACV 2020-2021, ACCV 2018-2020, ICME 2019-2021, ICPR 2018-2020, ICIP 2018-2019
+                <b>Conference Reviewer / Program Committee Member:</b> CVPR 2018-2021, ICML 2019-2021, ICCV 2019-2021, NeurIPS 2019-2021, ICLR 2021, ECCV 2020, AAAI 2020-2021, WACV 2020-2021, ACCV 2018-2020, ICME 2019-2021, PRCV 2021, ICPR 2018-2020, ICIP 2018-2019
               </li>
               <li style="margin: 5px;"> 
                 <b>Senior Program Committee Member:</b> IJCAI 2021
               </li>
               <li style="margin: 5px;"> 
-                <b>Journal Reviewer:</b>  IJCV, T-IP, T-MM, T-Cybernetics, IEEE Access
+                <b>Journal Reviewer:</b>  IJCV, T-IP, T-MM, T-Cybernetics
               </li>
             </p>
           </td>
@@ -435,7 +485,7 @@
 	  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=yp3s8rdiQW_pbzmBOzWDx2Fv6afIlEpV-k1EZiYIkEY"></script>
 	  </div>        
 	  <br>
-	    &copy; Yongming Rao | Last updated: May 21, 2021
+	    &copy; Yongming Rao | Last updated: June 9, 2021
 </center></p>
 </body>
 
